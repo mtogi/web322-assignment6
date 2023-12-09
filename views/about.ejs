@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Lego Collection</title>
+</head>
+<body>
+    <%- include('partials/navbar', {page: '/about'}) %>
+
+    <div class="container mx-auto p-4">
+
+      <!-- Hero Section -->
+      <div class="hero bg-base-200 rounded-lg p-6">
+        <div class="text-center hero-content">
+          <div class="max-w-md">
+            <h1 class="text-4xl font-bold">About</h1>
+            <p class="text-lg mt-4">Everything you want to know about me - the designer & developer.</p>
+          </div>
+        </div>
+      </div>
+
+    <br>
+    <!-- About Content -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Left Column: Image -->
+        <div>
+          <img class="w-full rounded-lg" src="https://cdn.pixabay.com/photo/2023/10/03/08/31/tree-8290838_1280.jpg" alt="profile">
+        </div>
+        <!-- Right Column: Blurb -->
+        <div class="prose">
+            <p> Hello, I'm Harsh Trivedi. I have a passion for Lego and have been collecting Lego sets for years.
+              Aside from my Lego hobby, I enjoy coding and learning about new technologies.
+              Currently, I'm taking courses in web development and exploring various programming languages.</p>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
